@@ -1,0 +1,90 @@
+ /*****   Body Style ******/
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    background-color: #0077b5;
+    padding: 50px;
+    margin: 0 150px;
+}
+.input-box{
+    display: inline-block;
+}
+.inp{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
+#equal{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+label{
+    color: white;
+    font-size: 22px;
+}
+
+/******   Responsive CSS   *******/
+
+/* media 991px to 668 */
+@media only screen and (max-width: 992px) {
+     #container{
+         margin: 0 50px;
+     }
+     .inp{
+        font-size: 20px;
+        width: 250px;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+
+ /* media 778px to 668 */
+ @media only screen and (max-width: 778px) {
+     #container{
+         margin: 0 25px;
+     }
+     .inp{
+        font-size: 16px;
+        width: 200px;
+     }
+}
+
+/* media 667px to 576px */
+@media only screen and (max-width: 668px){
+    h1{
+        font-size: 25px;
+    }
+    #container{
+        padding: 30px;
+    }
+    .inp{
+        width: 150px;
+        padding: 5px;
+    }
+    label{
+        font-size: 16px;
+    }
+}
+
+/* media 557px to 320px */
+@media only screen and (max-width: 576px){
+    h1{
+        font-size: 20px;
+    }
+    #container{
+        padding: 20px 5px;
+    }
+    .inp{
+        font-size: 16px;
+        width: 100px;
+        padding: 0px;
+        font-weight: normal;
+    }
+}
